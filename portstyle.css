@@ -1,7 +1,37 @@
-.center{
-    background-color: aquamarine;
+.jumbotron{
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero_1.jpg");
+    padding: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    text-align: center;
+    color: white;
 }
+
+.active {
+    background-color: white;
+}
+
+img{
+    border-radius: 2px solid red;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
 iframe{
     display: flex;
     margin: 0 auto;
 }
+.Statements{ 
+    position: relative;
+    text-align: center;
+    padding: 100px 100px;
+}
+
+.grid-container {
+    display: grid;
+  }
