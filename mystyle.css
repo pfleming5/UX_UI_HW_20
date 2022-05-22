@@ -34,6 +34,7 @@ h2:hover{
     text-decoration: none;
     font-size: 17px;
     display: block;
+    font-family: 'Futura', 'Nunito', sans-serif;
   }
 
   .topnav img{
@@ -108,9 +109,9 @@ h1{
 }
 
 .Bio{
+    position: relative;
     text-align: center;
-    margin: 75px;
-   padding: 75px;
+    padding: 100px 100px;
 }
 .Bio img{ 
     max-width: 100%;
