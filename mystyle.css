@@ -35,6 +35,11 @@ h2:hover{
     font-size: 17px;
     display: block;
   }
+
+  .topnav img{
+      max-width: 100%;
+      height: auto;
+  }
   
   /* Style the hamburger menu */
   .topnav a.icon {

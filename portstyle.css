@@ -36,11 +36,50 @@ iframe{
   }
 
   .grid-item{
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: black;
     padding: 20px;
     font-size: 30px;
     text-align: center;
    
 
+  }
+
+  .grid-item h4{
+      color: white;
+  }
+
+  .competitorAnalysis p{
+      color: white;
+  }
+
+  .competitorAnalysis img{
+    max-width: 100%;
+    height: auto;
+}
+
+  .grid-items{
+      padding: 50px;
+  }
+
+  .grid-items h4{
+            padding-bottom: 10px;
+  }
+
+  .grid-items p{
+            padding-right: 100px;
+  }
+
+  .grid-items img{
+    max-width: 100%;
+    height: auto;
+
+  }
+
+  .figma{
+      padding-top: 50px;
+  }
+
+  .userPersona{
+    margin: auto;
+    text-align: center;
   }
