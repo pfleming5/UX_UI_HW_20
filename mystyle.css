@@ -113,9 +113,8 @@ h1{
    padding: 75px;
 }
 .Bio img{ 
-    padding-bottom: 51px;
-    justify-content: center;
-    align-content: center;
+    max-width: 100%;
+    height: auto;
 }
 .Bio h3{
     padding-top: 24px;
