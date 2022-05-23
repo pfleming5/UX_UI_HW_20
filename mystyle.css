@@ -197,6 +197,8 @@ footer{
                 justify-items: stretch;
                 
             }
+
+            
    
 
     
@@ -241,8 +243,8 @@ footer{
                 }
 
                 .Bio img{
-                    width: 300%;
-                    height: 300%;
+                    max-width: 100%;
+                    height: auto;
                     justify-content: center;
                     align-content: center;
                 }
