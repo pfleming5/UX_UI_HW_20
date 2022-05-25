@@ -6,9 +6,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
     text-align: center;
     color: white;
+    padding-top: 75px;
 }
 
 .active {
