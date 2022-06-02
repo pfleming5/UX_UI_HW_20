@@ -8,7 +8,6 @@
     position: relative;
     text-align: center;
     color: white;
-    padding-top: 75px;
 }
 
 .active {
@@ -75,8 +74,19 @@ iframe{
   }
 
   .grid-items p{
-            padding-right: 100px;
             text-align: center;
+  }
+  
+  #p2{
+      margin: 0;
+      padding: 0;
+      line-height: 24px;
+  }
+  #p1{
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+
   }
 
   .grid-items img{
@@ -117,6 +127,24 @@ iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+ .row{
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     background-color: black;
+ }
+ 
+  .row h4{
+      text-align: center;
+  }
+
+  .row img{
+    width: 100%;
+    height: auto;
+    
+
   }
 
     
