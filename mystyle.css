@@ -90,7 +90,7 @@ h2:hover{
     z-index: 55;
 }
 
-.row{
+.rows{
     display: flex;
     justify-content: center;
 }
@@ -172,7 +172,7 @@ footer{
                 
               }
 
-              .row{
+              .rows{
                 display: grid;
                 justify-content: center;
                 grid-template-columns: 300px;
