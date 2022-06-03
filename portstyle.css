@@ -22,6 +22,7 @@ iframe{
 
 .overView{
     padding: 50px;
+    
 }
 
 .Statements{ 
@@ -111,6 +112,13 @@ iframe{
     text-align: center;
   }
 
+  .userPersona img{
+    width: 100%; 
+    height: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
   .userPersona h4{
       padding: 50px;
   }
@@ -151,11 +159,32 @@ iframe{
 
   }
 
+  .finalThoughts h4{
+      padding: 50px;
+  }
+
+  .finalThoughts p{
+      padding-right: 64px;
+      padding-left: 64px;
+  }
+
+  .finalThoughts{
+    margin: auto;
+    text-align: center;
+  }
+
     
   
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 900px) {
+   .overView{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px;
+    gap: 50px 50px;
+   }
+   
     .grid-item {
         width: 100%;
         max-width: 100%;
