@@ -10,6 +10,18 @@
     color: white;
 }
 
+#genda{
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Genda/smartmockup_genda.jpg");
+    padding: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .active {
     background-color: white;
 }
