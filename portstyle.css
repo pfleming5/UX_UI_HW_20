@@ -26,6 +26,10 @@
     background-color: white;
 }
 
+#space{
+    max-width: 32px;
+}
+
 
 iframe{
     display: flex;
