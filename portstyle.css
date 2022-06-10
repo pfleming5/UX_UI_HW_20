@@ -187,8 +187,28 @@ iframe{
     text-align: center;
   }
 
-    
-  
+.userFlow{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+button{
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    background-color: #2196F3; 
+    border-radius: 8px;
+  }
+  button:hover{
+    background: #0b7dda;
+  }
+
+
+
+
+
 
 
   @media screen and (max-width: 900px) {
