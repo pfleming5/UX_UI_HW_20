@@ -22,6 +22,18 @@
     color: white;
 }
 
+#gip{
+    background-color: lightgrey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/GIP/GIP_Mockup.jpg");
+    padding: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .active {
     background-color: white;
 }
@@ -44,7 +56,13 @@ iframe{
 .Statements{ 
     position: relative;
     text-align: center;
-    padding: 100px 100px;
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+.userInsight{
+    padding-top: 64px;
+    padding-bottom:64px;
 }
 
 .grid-container {
@@ -185,6 +203,8 @@ iframe{
   .finalThoughts{
     margin: auto;
     text-align: center;
+    padding-right: 500px;
+    padding-left: 500px;
   }
 
 .userFlow{
