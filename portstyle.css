@@ -58,6 +58,7 @@ iframe{
     text-align: center;
     padding-right: 500px;
     padding-left: 500px;
+ 
 }
 
 .userInsight{
@@ -232,7 +233,7 @@ button{
 
 
   @media screen and (max-width: 900px) {
-   .overView{
+   .row{
     display: grid;
     justify-content: center;
     grid-template-columns: 300px;
@@ -257,5 +258,28 @@ button{
         text-align: center;
       }
     
+      .Statements{ 
+        position: relative;
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+     
+    }
+
+    .finalThoughts{
+        margin: auto;
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+
+      .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+      }
 
   }
+
+  
