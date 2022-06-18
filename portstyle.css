@@ -130,11 +130,6 @@ iframe{
 
   }
 
-  .grid-items img{
-    max-width: 100%;
-    height: auto;
-
-  }
 
   .figma{
       padding-top: 50px;
@@ -158,6 +153,13 @@ iframe{
 
   .userPersona p{
       color: #696767;
+      padding-left: 500px;
+      padding-right: 500px;
+      padding-bottom: 50px;
+  }
+
+  .competitorAnalysis p{
+    color: black;
   }
 
   .mockUp h4{
@@ -279,6 +281,12 @@ button{
         margin-right: -15px;
         margin-left: -15px;
       }
+
+      .userPersona p{
+        color: #696767;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
   }
 
