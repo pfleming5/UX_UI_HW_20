@@ -178,6 +178,14 @@ footer{
     filter:saturate(.1);
     filter:contrast(5%);
 }
+
+.options {
+    margin: 75px;
+    padding: 75px;
+
+}
+
+
     
     
 @media only screen and (max-width: 500px) { 
