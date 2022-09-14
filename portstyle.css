@@ -199,20 +199,18 @@ iframe{
 
   }
 
-  .finalThoughts h4{
-      padding: 50px;
-  }
+  
 
   .finalThoughts p{
-      padding-right: 64px;
-      padding-left: 64px;
+      padding-right: 6px;
+      padding-left: 6px;
   }
 
   .finalThoughts{
     margin: auto;
     text-align: center;
-    padding-right: 500px;
-    padding-left: 500px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 
 .userFlow{
